@@ -1,0 +1,54 @@
+You are given with set of words, you have to say which words can be typed in a single row os the keyboard,
+Return the words which can be typed in a single row of the keyboard.
+
+Input Description:
+First line contains, N the size of word list. (1<N<1000)
+Second line contains, N words in a list.
+
+Output Description:
+Print the words which can be typed in a single row of the keyboard.
+
+Sample Input:
+4
+dfgh dert oiut vbgu
+
+Sample Output:
+dfgh oiut
+
+Explanation:
+The words, (dfgh, oiut) can be printed with a single row of keyboard, check for your keyboard for better understanding.
+
+Sample Input:
+6
+qwerty poiuyt asdfr lkjhu zmxn rtyuh
+
+Samplpe Output:
+qwerty poiuyt zmxn
+
+Sample Input:
+3
+wertyu sdfghj cvbxne
+
+Sample Output:
+wertyu sdfghj
+
+Sample Input:
+7
+qwer fgdhj cbvnc uyhtn nhgk wfdht xczbx
+
+Sample Output:
+qwer fgdhj cbvnc xczbx
+
+Sample Input:
+5
+po lk nb tyg bfg
+
+Sample Output:
+po lk nb
+
+Sample Input:
+4
+qazx wedc sdfg lhkjg
+
+Sample Output:
+sdfg lhkjg
